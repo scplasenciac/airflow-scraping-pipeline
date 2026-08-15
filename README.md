@@ -11,4 +11,9 @@ El DAG `scraping_carga` extrae citas y autores desde [quotes.toscrape.com](https
 - [Pandas](https://pandas.pydata.org/) para manipulación y exportación de datos.
 
 ## Estructura del proyecto
-
+airflow-scraping-pipeline/
+│
+├── dags/
+│   └── scraping_carga.py
+├── requirements.txt
+└── README.md
